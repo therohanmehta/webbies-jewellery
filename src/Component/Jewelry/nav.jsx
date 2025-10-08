@@ -5,7 +5,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-auto bg-white flex items-center justify-between px-28 py-4 shadow-sm">
+    <div className="hidden xl:block">
+    <nav className=" w-full h-auto bg-white flex items-center justify-between px-28 py-4 shadow-sm">
       {/* Logo */}
       <div className="flex items-center gap-2">
         <Image
@@ -40,5 +41,7 @@ export default function Navbar() {
         />
       </div>
     </nav>
+
+    </div>
   );
 }

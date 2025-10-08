@@ -7,7 +7,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className='bg-black'>
+    <>
+    <div className="xl:hidden bg-black  text-white text-2xl text-center flex justify-center items-center h-screen">
+      This webpage is only run on big screens more than 1024px
+    </div>
+   <div className='bg-black hidden xl:block'>
    
          <Hero/>
          <OurProductTitle/>
@@ -17,5 +21,6 @@ export default function Home() {
          <LikeProd/>
      
        </div>
+       </>
   );
 }

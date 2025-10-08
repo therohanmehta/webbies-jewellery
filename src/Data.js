@@ -31,22 +31,22 @@
         },
         3: {
             title: "Bracelets",
-            image: "/jewelaryImg/braceletModel.png",
+            image: "/jewelaryImg/Bracelets.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/Bracelet1.png", name: "EXCEPTEUR SINT", price: "₹19000.00" },
-                { id: 2, img: "/jewelaryImg/Bracelet2.png", name: "EXCEPTEUR SINT", price: "₹24000.00" },
-                { id: 3, img: "/jewelaryImg/Bracelet3.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
+                { id: 1, img: "/jewelaryImg/Bracelets2.png", name: "EXCEPTEUR SINT", price: "₹19000.00" },
+                { id: 2, img: "/jewelaryImg/Bracelets3.png", name: "EXCEPTEUR SINT", price: "₹24000.00" },
+                { id: 3, img: "/jewelaryImg/Bracelets4.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
             ]
         },
         4: {
             title: "Bangles",
-            image: "/jewelaryImg/necklaceModel.png",
+            image: "/jewelaryImg/Bangles3.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/Necklace1.png", name: "EXCEPTEUR SINT", price: "₹35000.00" },
-                { id: 2, img: "/jewelaryImg/Necklace2.png", name: "EXCEPTEUR SINT", price: "₹42000.00" },
-                { id: 3, img: "/jewelaryImg/Necklace3.png", name: "EXCEPTEUR SINT", price: "₹38000.00" },
+                { id: 1, img: "/jewelaryImg/Bangle2.png", name: "EXCEPTEUR SINT", price: "₹35000.00" },
+                { id: 2, img: "/jewelaryImg/Bangle3.png", name: "EXCEPTEUR SINT", price: "₹42000.00" },
+                { id: 3, img: "/jewelaryImg/Bangle4.png", name: "EXCEPTEUR SINT", price: "₹38000.00" },
             ]
         }
     };

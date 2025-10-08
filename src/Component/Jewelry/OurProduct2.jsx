@@ -225,7 +225,7 @@ function Product2() {
 
                         {/* Product Cards */}
                         <div className="flex justify-center gap-4 mt-10">
-                            {currentData.products.map((product, index) => (
+                            {currentData?.products?.map((product, index) => (
                                 <div 
                                     key={product.id}
                                     ref={el => productsRef.current[index] = el}
