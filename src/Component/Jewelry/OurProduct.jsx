@@ -13,52 +13,52 @@ function Product() {
     const productData = {
         0: {
             title: "Rings",
-            image: "/jewelaryImg/productModel.png",
+            image: "/JewelaryImg/productModel.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/Rings.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
-                { id: 2, img: "/jewelaryImg/Rings2.png", name: "EXCEPTEUR SINT", price: "₹25000.00" },
-                { id: 3, img: "/jewelaryImg/Rings3.png", name: "EXCEPTEUR SINT", price: "₹23000.00" },
+                { id: 1, img: "/JewelaryImg/Rings.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
+                { id: 2, img: "/JewelaryImg/Rings2.png", name: "EXCEPTEUR SINT", price: "₹25000.00" },
+                { id: 3, img: "/JewelaryImg/Rings3.png", name: "EXCEPTEUR SINT", price: "₹23000.00" },
             ]
         },
         1: {
             title: "Ear Rings",
-            image: "/jewelaryImg/Model2.png",
+            image: "/JewelaryImg/Model2.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/EarRing1.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
-                { id: 2, img: "/jewelaryImg/EarRing2.png", name: "EXCEPTEUR SINT", price: "₹25000.00" },
-                { id: 3, img: "/jewelaryImg/EarRing3.png", name: "EXCEPTEUR SINT", price: "₹23000.00" },
+                { id: 1, img: "/JewelaryImg/EarRing1.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
+                { id: 2, img: "/JewelaryImg/EarRing2.png", name: "EXCEPTEUR SINT", price: "₹25000.00" },
+                { id: 3, img: "/JewelaryImg/EarRing3.png", name: "EXCEPTEUR SINT", price: "₹23000.00" },
             ]
         },
         2: {
             title: "Necklace",
-            image: "/jewelaryImg/Model3.png",
+            image: "/JewelaryImg/Model3.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/necklace1.png", name: "EXCEPTEUR SINT", price: "₹18000.00" },
-                { id: 2, img: "/jewelaryImg/necklace2.png", name: "EXCEPTEUR SINT", price: "₹22000.00" },
-                { id: 3, img: "/jewelaryImg/necklace3.png", name: "EXCEPTEUR SINT", price: "₹20000.00" },
+                { id: 1, img: "/JewelaryImg/necklace1.png", name: "EXCEPTEUR SINT", price: "₹18000.00" },
+                { id: 2, img: "/JewelaryImg/necklace2.png", name: "EXCEPTEUR SINT", price: "₹22000.00" },
+                { id: 3, img: "/JewelaryImg/necklace3.png", name: "EXCEPTEUR SINT", price: "₹20000.00" },
             ]
         },
         3: {
             title: "Bracelets",
-            image: "/jewelaryImg/braceletModel.png",
+            image: "/JewelaryImg/braceletModel.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/Bracelet1.png", name: "EXCEPTEUR SINT", price: "₹19000.00" },
-                { id: 2, img: "/jewelaryImg/Bracelet2.png", name: "EXCEPTEUR SINT", price: "₹24000.00" },
-                { id: 3, img: "/jewelaryImg/Bracelet3.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
+                { id: 1, img: "/JewelaryImg/Bracelet1.png", name: "EXCEPTEUR SINT", price: "₹19000.00" },
+                { id: 2, img: "/JewelaryImg/Bracelet2.png", name: "EXCEPTEUR SINT", price: "₹24000.00" },
+                { id: 3, img: "/JewelaryImg/Bracelet3.png", name: "EXCEPTEUR SINT", price: "₹21000.00" },
             ]
         },
         4: {
             title: "Bangles",
-            image: "/jewelaryImg/necklaceModel.png",
+            image: "/JewelaryImg/necklaceModel.png",
             description: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae vel illum qui dolorem.",
             products: [
-                { id: 1, img: "/jewelaryImg/Necklace1.png", name: "EXCEPTEUR SINT", price: "₹35000.00" },
-                { id: 2, img: "/jewelaryImg/Necklace2.png", name: "EXCEPTEUR SINT", price: "₹42000.00" },
-                { id: 3, img: "/jewelaryImg/Necklace3.png", name: "EXCEPTEUR SINT", price: "₹38000.00" },
+                { id: 1, img: "/JewelaryImg/Necklace1.png", name: "EXCEPTEUR SINT", price: "₹35000.00" },
+                { id: 2, img: "/JewelaryImg/Necklace2.png", name: "EXCEPTEUR SINT", price: "₹42000.00" },
+                { id: 3, img: "/JewelaryImg/Necklace3.png", name: "EXCEPTEUR SINT", price: "₹38000.00" },
             ]
         }
     };
@@ -106,7 +106,7 @@ function Product() {
                     if (activeSection < totalSections - 1) {
                         isAnimatingRef.current = true;
                         setActiveSection(prev => prev + 1);
-                        
+
                         setTimeout(() => {
                             isAnimatingRef.current = false;
                         }, 600);
@@ -123,7 +123,7 @@ function Product() {
                     if (activeSection > 0) {
                         isAnimatingRef.current = true;
                         setActiveSection(prev => prev - 1);
-                        
+
                         setTimeout(() => {
                             isAnimatingRef.current = false;
                         }, 600);
@@ -146,7 +146,7 @@ function Product() {
             if (isLocked && componentRef.current) {
                 const rect = componentRef.current.getBoundingClientRect();
                 const isOutOfView = rect.bottom < 0 || rect.top > window.innerHeight;
-                
+
                 if (isOutOfView) {
                     setIsLocked(false);
                 }
@@ -172,8 +172,8 @@ function Product() {
     const currentData = productData[activeSection];
 
     return (
-        <section 
-            ref={componentRef} 
+        <section
+            ref={componentRef}
             className={`h-screen w-full flex ${isLocked ? 'fixed inset-0 z-50' : 'relative'}`}
         >
             {/* Left Section (Model) */}
@@ -182,11 +182,10 @@ function Product() {
                 {Object.entries(productData).map(([key, data]) => (
                     <div
                         key={key}
-                        className={`absolute inset-0 transition-opacity duration-700 ease-in-out will-change-opacity ${
-                            activeSection === parseInt(key) 
-                                ? 'opacity-100 z-10' 
+                        className={`absolute inset-0 transition-opacity duration-700 ease-in-out will-change-opacity ${activeSection === parseInt(key)
+                                ? 'opacity-100 z-10'
                                 : 'opacity-0 z-0'
-                        }`}
+                            }`}
                     >
                         <Image
                             src={data.image}
@@ -205,16 +204,14 @@ function Product() {
                         <button
                             key={category.id}
                             onClick={() => setActiveSection(category.id)}
-                            className={`text-left cursor-pointer transition-all duration-300 will-change-transform ${
-                                activeSection === category.id
+                            className={`text-left cursor-pointer transition-all duration-300 will-change-transform ${activeSection === category.id
                                     ? "font-semibold scale-110"
                                     : "hover:text-white"
-                            }`}
+                                }`}
                         >
                             <span className="flex font-[SubtitleJ] uppercase items-center gap-4">
-                                <hr className={`transition-all duration-500 border-current ${
-                                    activeSection === category.id ? "w-20" : "w-12"
-                                }`} /> 
+                                <hr className={`transition-all duration-500 border-current ${activeSection === category.id ? "w-20" : "w-12"
+                                    }`} />
                                 {category.label}
                             </span>
                         </button>
@@ -226,7 +223,7 @@ function Product() {
             <div className="w-1/2 h-full bg-[#485669] flex items-center justify-center overflow-hidden">
                 <div className="text-white px-10 w-full">
                     {/* Animated Content */}
-                    <div 
+                    <div
                         key={activeSection}
                         className="animate-fadeIn"
                     >
@@ -243,8 +240,8 @@ function Product() {
                         {/* Product Cards */}
                         <div className="flex justify-center gap-4 mt-10">
                             {currentData.products.map((product, index) => (
-                                <div 
-                                    key={product.id} 
+                                <div
+                                    key={product.id}
                                     className="w-1/3 text-center"
                                     style={{
                                         animation: `slideUp 0.5s ease-out ${index * 0.08}s both`

@@ -10,9 +10,9 @@ import "swiper/css";
 gsap.registerPlugin(ScrollTrigger);
 
 const products = [
-    { id: 1, img: "/jewelaryImg/Like1.png", description: "Excepteur sint" , price: "Rs-15,000" },
-    { id: 2, img: "/jewelaryImg/Like2.png",description: "Excepteur sint" , price: "Rs-35,000" },
-    { id: 3, img: "/jewelaryImg/Like3.png",description: "Excepteur sint" , price: "Rs-45,000" },
+    { id: 1, img: "/JewelaryImg/Like1.png", description: "Excepteur sint", price: "Rs-15,000" },
+    { id: 2, img: "/JewelaryImg/Like2.png", description: "Excepteur sint", price: "Rs-35,000" },
+    { id: 3, img: "/JewelaryImg/Like3.png", description: "Excepteur sint", price: "Rs-45,000" },
 ];
 
 export default function LikeProd() {
@@ -103,10 +103,10 @@ export default function LikeProd() {
                 </div>
 
                 <div className="w-[25vw] bg-white h-0.5">
-                    
+
                 </div>
 
-                
+
 
                 {/* <div className="flex gap-3 ml-auto">
           <button className="custom-prev w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:border-gray-500 transition-colors duration-300">
@@ -137,11 +137,11 @@ export default function LikeProd() {
                                 className="w-full  flex flex-col items-center justify-center   "
                             >
                                 <div className="h-[400px] w-full overflow-hidden">
-                                <img
-                                    src={item.img}
-                                    alt={`Product ${item.id}`}
-                                    className="w-full h-full  object-cover transition-transform duration-700 hover:scale-105"
-                                />
+                                    <img
+                                        src={item.img}
+                                        alt={`Product ${item.id}`}
+                                        className="w-full h-full  object-cover transition-transform duration-700 hover:scale-105"
+                                    />
                                 </div>
 
                                 <h2 className="pt-6">{item.description}</h2>

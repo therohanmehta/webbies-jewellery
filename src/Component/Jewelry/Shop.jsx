@@ -15,7 +15,7 @@ function Shop() {
     const ctx = gsap.context(() => {
       // Animate left shape from far left of screen
       gsap.from(leftShapeRef.current, {
-        x: -window.innerWidth, 
+        x: -window.innerWidth,
         opacity: 0,
         duration: 2.5,
         ease: "power3.out",
@@ -26,9 +26,9 @@ function Shop() {
         },
       });
 
-      
+
       gsap.from(rightShapeRef.current, {
-        x: window.innerWidth, 
+        x: window.innerWidth,
         opacity: 0,
         duration: 2.5,
         ease: "power3.out",
@@ -78,7 +78,7 @@ function Shop() {
         {/* Model Image */}
         <Image
           alt="model"
-          src="/jewelaryImg/Model4.png"
+          src="/JewelaryImg/Model4.png"
           width={450}
           height={600}
           className="relative z-10 object-contain"

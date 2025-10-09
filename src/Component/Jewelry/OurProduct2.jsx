@@ -98,9 +98,9 @@ function Product2() {
             scale: 1,
             duration: 1.5, 
             stagger: 0.12, 
-            ease: "power3.out" // Smoother easing function
+            ease: "power3.out" 
         },
-        "-=0.5" // Start slightly earlier
+        "-=0.5" 
     );
 
     // Image crossfade
