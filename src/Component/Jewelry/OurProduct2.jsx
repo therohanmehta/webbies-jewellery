@@ -19,8 +19,6 @@ function Product2() {
 
   
 
-   
-
     
     // const animateSection = (newSection) => {
     //     if (isAnimatingRef.current) return;
@@ -91,7 +89,7 @@ function Product2() {
         { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }
     )
     .fromTo(productsRef.current,
-        { opacity: 0, y: 100, scale: 0.95 }, // distance and  scale
+        { opacity: 0, y: 100, scale: 0.95 }, 
         { 
             opacity: 1, 
             y: 0,
@@ -103,7 +101,7 @@ function Product2() {
         "-=0.5" 
     );
 
-    // Image crossfade
+    // Image 
     imagesRef.current.forEach((img, index) => {
         if (index === newSection) {
             gsap.to(img, { opacity: 1, duration: 0.6, ease: "power2.inOut" });
@@ -190,7 +188,7 @@ function Product2() {
                     {categories.map((category) => (
                         <button
                             key={category.id}
-                            onClick={() => handleCategoryClick(category.id)}
+                            // onClick={() => handleCategoryClick(category.id)}
                             className={`text-left cursor-pointer transition-all duration-300 ${
                                 activeSection === category.id
                                     ? "font-semibold scale-110"
