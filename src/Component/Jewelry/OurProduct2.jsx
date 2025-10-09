@@ -189,7 +189,7 @@ function Product2() {
                         <button
                             key={category.id}
                             // onClick={() => handleCategoryClick(category.id)}
-                            className={`text-left cursor-pointer transition-all duration-300 ${
+                            className={`text-left  transition-all duration-300 ${
                                 activeSection === category.id
                                     ? "font-semibold scale-110"
                                     : "hover:text-white"
